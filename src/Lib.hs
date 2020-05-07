@@ -15,4 +15,4 @@ instance FromJSON User where
            <*> v .: "name"
            <*> v .: "hobbies"
 someFunc :: IO ()
-someFunc = putStrLn "someFunc"
+someFunc = putStrLn "someFunc 1"
