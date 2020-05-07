@@ -1,3 +1,4 @@
+{-# LANGUAGE OverloadedStrings, NoImplicitPrelude #-}
 module Lib
     ( someFunc
     ) where
