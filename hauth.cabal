@@ -4,7 +4,7 @@ cabal-version: 1.12
 --
 -- see: https://github.com/sol/hpack
 --
--- hash: 0af0e525b575ed100c84e3550210c01b44d3a26bac8a606ea085e9793aa3a8cd
+-- hash: 9232ddecd78b95a51dbbfb37effb15695b954e34ed04bd0298dfba5b2c1c10c9
 
 name:           hauth
 version:        0.1.0.0
@@ -38,6 +38,7 @@ library
     , base >=4.7 && <5
     , classy-prelude
     , scotty
+    , wai-cors
   default-language: Haskell2010
 
 executable hauth-exe
@@ -54,6 +55,7 @@ executable hauth-exe
     , classy-prelude
     , hauth
     , scotty
+    , wai-cors
   default-language: Haskell2010
 
 test-suite hauth-test
@@ -71,4 +73,5 @@ test-suite hauth-test
     , classy-prelude
     , hauth
     , scotty
+    , wai-cors
   default-language: Haskell2010

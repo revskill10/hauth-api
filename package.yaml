@@ -24,6 +24,7 @@ dependencies:
   - classy-prelude
   - aeson
   - scotty
+  - wai-cors
 default-extensions:
   - NoImplicitPrelude
   - OverloadedStrings
