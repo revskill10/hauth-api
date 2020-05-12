@@ -4,7 +4,7 @@ cabal-version: 1.12
 --
 -- see: https://github.com/sol/hpack
 --
--- hash: c91f6dc4965b63feb8f0f769e99c121e18226d99b7444a5de0a17ce58ae29c88
+-- hash: 4f92fac77ef88999da17dab88d8ad400c2df18b81c95f2189fabb07a93bb639a
 
 name:           hauth
 version:        0.1.0.0
@@ -41,6 +41,7 @@ library
     , optparse-applicative
     , postgresql-simple
     , postgresql-simple-url
+    , safe
     , scotty
     , text
     , wai-cors
@@ -63,6 +64,7 @@ executable hauth-exe
     , optparse-applicative
     , postgresql-simple
     , postgresql-simple-url
+    , safe
     , scotty
     , text
     , wai-cors
@@ -86,6 +88,7 @@ test-suite hauth-test
     , optparse-applicative
     , postgresql-simple
     , postgresql-simple-url
+    , safe
     , scotty
     , text
     , wai-cors
