@@ -4,7 +4,7 @@ cabal-version: 1.12
 --
 -- see: https://github.com/sol/hpack
 --
--- hash: bd27edab65d54ae967eee6c846f0f5f48f1d7643535540e33784e274da1b0083
+-- hash: c91f6dc4965b63feb8f0f769e99c121e18226d99b7444a5de0a17ce58ae29c88
 
 name:           hauth
 version:        0.1.0.0
@@ -42,6 +42,7 @@ library
     , postgresql-simple
     , postgresql-simple-url
     , scotty
+    , text
     , wai-cors
   default-language: Haskell2010
 
@@ -63,6 +64,7 @@ executable hauth-exe
     , postgresql-simple
     , postgresql-simple-url
     , scotty
+    , text
     , wai-cors
   default-language: Haskell2010
 
@@ -85,5 +87,6 @@ test-suite hauth-test
     , postgresql-simple
     , postgresql-simple-url
     , scotty
+    , text
     , wai-cors
   default-language: Haskell2010

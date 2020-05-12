@@ -29,6 +29,7 @@ dependencies:
   - optparse-applicative
   - postgresql-simple
   - postgresql-simple-url
+  - text
 default-extensions:
   - NoImplicitPrelude
   - OverloadedStrings
