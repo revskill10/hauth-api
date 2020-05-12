@@ -27,6 +27,7 @@ dependencies:
   - wai-cors
   - morpheus-graphql
   - optparse-applicative
+  - postgresql-simple
   - postgresql-simple-url
 default-extensions:
   - NoImplicitPrelude
