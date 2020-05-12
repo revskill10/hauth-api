@@ -25,6 +25,13 @@ packages:
       sha256: fcd1457d9463ac9d2261d538c42a283761eb253c9bb230f6df450209348a38f8
   original:
     hackage: postgresql-simple-url-0.2.1.0
+- completed:
+    hackage: postgresql-simple-0.6.2@sha256:79c1ca7d783e075b4b2817a553c5cf31b4bb1df3d9da0ba5f84e1f1448bbcf72,5090
+    pantry-tree:
+      size: 4055
+      sha256: 13ac7d1841a6f51e004571db13968082a61e8d09e717e8d60790bc45248feb1f
+  original:
+    hackage: postgresql-simple-0.6.2
 snapshots:
 - completed:
     size: 494638

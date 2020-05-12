@@ -4,10 +4,11 @@ import System.Environment (getEnv)
 import ClassyPrelude hiding (delete)
 import Web.Scotty.Trans
 import Network.Wai.Middleware.Cors
+import Database.PostgreSQL.Simple
 import Database.PostgreSQL.Simple.URL
 
 defaultConn = "test"
-
+defaultPort = 3000
 main :: IO ()
 main = do
   envPort <- getEnv "PORT"

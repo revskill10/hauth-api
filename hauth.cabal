@@ -4,7 +4,7 @@ cabal-version: 1.12
 --
 -- see: https://github.com/sol/hpack
 --
--- hash: fb210fb9077dee320e4d0fb701f6dd59b8309b3a0ff3ffb2e50f2ff7922ca56b
+-- hash: bd27edab65d54ae967eee6c846f0f5f48f1d7643535540e33784e274da1b0083
 
 name:           hauth
 version:        0.1.0.0
@@ -39,6 +39,7 @@ library
     , classy-prelude
     , morpheus-graphql
     , optparse-applicative
+    , postgresql-simple
     , postgresql-simple-url
     , scotty
     , wai-cors
@@ -59,6 +60,7 @@ executable hauth-exe
     , hauth
     , morpheus-graphql
     , optparse-applicative
+    , postgresql-simple
     , postgresql-simple-url
     , scotty
     , wai-cors
@@ -80,6 +82,7 @@ test-suite hauth-test
     , hauth
     , morpheus-graphql
     , optparse-applicative
+    , postgresql-simple
     , postgresql-simple-url
     , scotty
     , wai-cors
