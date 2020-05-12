@@ -4,7 +4,7 @@ cabal-version: 1.12
 --
 -- see: https://github.com/sol/hpack
 --
--- hash: 9232ddecd78b95a51dbbfb37effb15695b954e34ed04bd0298dfba5b2c1c10c9
+-- hash: fb210fb9077dee320e4d0fb701f6dd59b8309b3a0ff3ffb2e50f2ff7922ca56b
 
 name:           hauth
 version:        0.1.0.0
@@ -37,6 +37,9 @@ library
       aeson
     , base >=4.7 && <5
     , classy-prelude
+    , morpheus-graphql
+    , optparse-applicative
+    , postgresql-simple-url
     , scotty
     , wai-cors
   default-language: Haskell2010
@@ -54,6 +57,9 @@ executable hauth-exe
     , base >=4.7 && <5
     , classy-prelude
     , hauth
+    , morpheus-graphql
+    , optparse-applicative
+    , postgresql-simple-url
     , scotty
     , wai-cors
   default-language: Haskell2010
@@ -72,6 +78,9 @@ test-suite hauth-test
     , base >=4.7 && <5
     , classy-prelude
     , hauth
+    , morpheus-graphql
+    , optparse-applicative
+    , postgresql-simple-url
     , scotty
     , wai-cors
   default-language: Haskell2010

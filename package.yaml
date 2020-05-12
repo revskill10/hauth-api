@@ -25,6 +25,9 @@ dependencies:
   - aeson
   - scotty
   - wai-cors
+  - morpheus-graphql
+  - optparse-applicative
+  - postgresql-simple-url
 default-extensions:
   - NoImplicitPrelude
   - OverloadedStrings

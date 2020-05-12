@@ -3,7 +3,28 @@
 # For more information, please see the documentation at:
 #   https://docs.haskellstack.org/en/stable/lock_files
 
-packages: []
+packages:
+- completed:
+    hackage: morpheus-graphql-0.11.0@sha256:9a4afac0720edaeeb9df16986d7ad1641f265f7c09958bc2fdd29d60189aa133,26251
+    pantry-tree:
+      size: 38453
+      sha256: a4191aca5b0c334d44f4b1f49d2db1c6851cb0484eaabcc828b2a591e29f6c33
+  original:
+    hackage: morpheus-graphql-0.11.0
+- completed:
+    hackage: optparse-applicative-0.15.1.0@sha256:29ff6146aabf54d46c4c8788e8d1eadaea27c94f6d360c690c5f6c93dac4b07e,4810
+    pantry-tree:
+      size: 2904
+      sha256: 04ad3816bc580cbe0834d3d1f4729ddd386abfe31b43e5b14968885f636d1b0d
+  original:
+    hackage: optparse-applicative-0.15.1.0
+- completed:
+    hackage: postgresql-simple-url-0.2.1.0@sha256:25aa9dca3c05b2c66b9336907d9300f1312fbdfa54e0d395b52d1a1e6579810a,1837
+    pantry-tree:
+      size: 397
+      sha256: fcd1457d9463ac9d2261d538c42a283761eb253c9bb230f6df450209348a38f8
+  original:
+    hackage: postgresql-simple-url-0.2.1.0
 snapshots:
 - completed:
     size: 494638
